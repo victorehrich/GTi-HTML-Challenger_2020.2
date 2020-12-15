@@ -3,32 +3,35 @@
 }
 
 .banerImage{
-    background: url('../images/signal-5165949_1920.jpg') ;
+    background: url('../images/gaming-2215601_1920.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover !important;
     background-position: center;
-    background-size: cover;
-    position: absolute;
     max-width: 100%;
     min-width: 100%;
     max-height: 100%;
     min-height: 100%;
-    opacity: 0.5;
+    opacity: 1;
+
     /*conferir opacidade*/
- 
+    
 }
 .text-banner{
     color: white;
     text-align: center;
     text-shadow: 2px 2px black;
 }
-.text-size-banner{
-}
 .butao{
-    text-align: center;
-    border-radius: 6px;
-    background-color: #FCC302;
+
     border-color: white;
-    padding: 15px 20px;
-    width: 350px;
-    font-size: 35px;
-    align-content: center;
+
+}
+.butao:hover{
+    background-color:#fca402 ;
+    text-shadow: 2px 2px black;
+    color: white;
+    border-color: white;
+}
+.icons{
+    
 }
