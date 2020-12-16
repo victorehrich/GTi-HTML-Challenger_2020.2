@@ -32,6 +32,13 @@
     color: white;
     border-color: white;
 }
-.icons{
-    
+.services-text{
+    font-weight: bold;
+}
+.circ{
+    border-radius: 50%;
+    background-color: #fca402;
+}
+.bg{
+    background-color: rgb(223, 223, 223);
 }
