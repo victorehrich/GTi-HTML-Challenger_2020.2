@@ -33,7 +33,7 @@
     border-color: white;
 }
 .services-text{
-    font-weight: bold;
+    font-weight: bold !important;
 }
 .circ{
     border-radius: 50%;
