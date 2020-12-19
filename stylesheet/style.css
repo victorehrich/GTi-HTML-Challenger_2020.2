@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    margin:0;
+    padding: 0;
 }
 
 .banerImage{
@@ -11,6 +13,8 @@
     min-width: 100%;
     max-height: 100%;
     min-height: 100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
     opacity: 1;
 
     /*conferir opacidade*/
@@ -52,39 +56,4 @@
     width: 2px;
     height: 100%;
     background: #c5c5c5;
-}
-.timeline ul{
-    margin: 0;
-    padding: 0;
-}
-.timeline ul li{
-    list-style: nome;
-    position: relative;
-    width: 50%;
-    padding: 20px 40px;
-}
-.timeline ul li:nth-child(odd){
-    float: left;
-    text-align: right;
-    clear: both;
-    list-style-type: none;
-}
-.timeline ul li:nth-child(even){
-    float: right;
-    text-align: left;
-    clear: both;
-    list-style-type: none;
-}
-.content{
-    padding-bottom:20px;
-    padding:  10px 10px;
-    
-}
-.timeline-img:nth-child(odd){
-    position: absolute;
-    
-}
-.timeline-img:nth-child(even){
-    position: absolute;
-    
 }
