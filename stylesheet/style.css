@@ -56,14 +56,18 @@
 .text-left{
     text-align: left;
 }
-.timeline{
-    position: relative;
+.text-orange{
+    color: #fca402;
 }
-.timeline::before{
-    content: '';
-    position: absolute;
-    left: 50%;
-    width: 2px;
-    height: 100%;
-    background: #c5c5c5;
+.bu{
+
+    border-color:rgb(223, 223, 223) ;
+    border-radius: .3rem;
+    line-height: 1.5;
+    border: 0px solid;
+    background: rgb(223, 223, 223);
+    
+}
+button{
+    outline: none;
 }
